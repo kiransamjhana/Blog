@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.global {
+  background: red;
+}
+
+header {
+  background: blue;
+  color: white;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin-left: 1rem;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  background: red;
+  zoom: 150%;
+}
+.logo {
+  width: 80x;
+  height: 80px;
+  background: white;
+  color: blue;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo div {
+  width: 70px;
+  height: 70px;
+  border: 3px dotted blue;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
