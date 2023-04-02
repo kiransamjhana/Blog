@@ -1,3 +1,9 @@
+:root{
+    --primary:blue:
+  
+}
+
+
 body {
   margin: 0;
 }
@@ -7,8 +13,17 @@ body {
   margin: auto;
 }
 
+h2{
+    background: var(--primary);
+}
+
 .global {
   background: red;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 header {
@@ -61,3 +76,154 @@ header ul li:hover {
   align-items: center;
   font-weight: bold;
 }
+/*hero section*/
+
+.hero {
+  background: url(./img/a.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  justify-content:center ;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.hero-content {
+  background: rgb(0, 0, 0, 0.706);
+  width: 500px;
+  padding: 3rem;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.hero-content hr {
+  width: 100%;
+}
+
+/* LATES POST SECTION */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.articles {
+
+  width: 50%;
+
+}
+
+.side-links {
+  
+  width: 34%;
+}
+
+article{
+    display: flex;
+    gap: 1rem;
+    box-shadow: -5px 5px 10px 5px blue;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.art-img{
+    max-width: 300px;
+}
+
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.btn{
+    background: orange;
+    padding: o.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px rgb(209, 85, 13);
+}
+
+
+article.btn{
+    float: right;
+}
+
+
+
+
+.footer{
+    background:black;
+    color: white;
+    padding:3rem;
+
+    display:flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+ /* side inks */
+
+
+
+ .country{
+    background: rgba(172, 255, 47, 0.679);
+    padding: 1rem;
+   
+    margin-bottom: 2rem;
+
+ }
+
+ .date{
+    background: rgb(16, 188, 122);
+    padding: 1rem;
+  
+   
+ }
+
+ /* Recomadtion section */
+
+ .recc{
+    background: rgb(184, 162, 170);
+    padding: 2rem 0 ;
+    border-radius: 5px;
+ }
+
+ .card{
+    background: rgb(175, 115, 115);
+    width: 400px;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    flex-grow: 1;
+    
+ }
+
+ .card img{
+    border-radius: 10px 10px 0 0 ;
+ }
+
+ .card-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+ }
+
+ .subs{
+    padding: 3rem o;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+ }
+
+ .subs input{
+    line-height: 2rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid silver;
+    margin-right: 1rem;
+ }
