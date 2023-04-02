@@ -109,6 +109,8 @@ header ul li:hover {
   gap: 1rem;
 }
 .articles {
+    display: flex;
+    flex-direction: column;
 
   width: 50%;
 
@@ -212,10 +214,10 @@ article.btn{
  }
 
  .subs{
-    padding: 3rem o;
+    padding: 3rem 0;
 
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 
  }
