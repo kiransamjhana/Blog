@@ -8,21 +8,47 @@ body {
 }
 
 .logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 80%;
+  margin: auto;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
 /* hearder section */
 
 header {
   background: blue;
-  display: flex;
 }
 
+header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  gap: 0.5rem;
+}
+
+header ul li {
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  background: red;
+  transform: scale(1.5);
 }
 
 /* footer */
