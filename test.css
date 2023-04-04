@@ -51,6 +51,22 @@ header ul li:hover {
   transform: scale(1.5);
 }
 
+/* Hero Section */
+
+.welcome {
+  background: url(./img/b.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
 /* footer */
 
 footer {
