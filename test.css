@@ -19,7 +19,7 @@ body {
 /* hearder section */
 
 header {
-  background: blue;
+  background: rgb(5, 18, 123);
 }
 
 header > div {
@@ -36,14 +36,17 @@ header > div {
 header ul {
   display: flex;
   gap: 0.5rem;
+  text-decoration: none;
+  list-style: none;
 }
 
-header ul li {
+header ul li a {
   text-decoration: none;
   list-style: none;
   font-weight: bold;
   font-size: 1.3rem;
   cursor: pointer;
+  color: black;
 }
 
 header ul li:hover {
@@ -54,21 +57,51 @@ header ul li:hover {
 /* Hero Section */
 
 .welcome {
-  background: url(./img/b.jpg);
+  background: url(./img/nepal.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 70vh;
 }
 
 .hero {
+  background: rgba(0, 0, 0, 0.706);
+  width: 500px;
+  padding: 2rem;
+  color: white;
+  border-radius: 10px;
+  gap: 1px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
 }
 /* footer */
 
+/* Latest post section */
+
+.latest {
+  display: flex;
+  justify-content: space-between;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+}
+
+.article {
+  border-radius: 10px;
+  display: flex;
+  gap: 0.5rem;
+  justify-items: left;
+}
+
+.content {
+  gap: 1rem;
+}
 footer {
   background: black;
 }
