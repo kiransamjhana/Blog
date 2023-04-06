@@ -2,6 +2,17 @@ body {
   margin: 0;
 }
 /* golbal sectioln */
+
+.btn {
+  color: rgb(114, 114, 93);
+  border-radius: 10px;
+  background: rgb(230, 154, 154);
+  box-shadow: -5px 5px 10px rgb(27, 2, 2);
+}
+
+.whole {
+  margin-bottom: 1rem;
+}
 .global {
   display: flex;
   background: rgb(186, 85, 85);
@@ -63,6 +74,7 @@ header ul li:hover {
   justify-content: center;
   align-items: center;
   height: 70vh;
+  margin-top: 2rem;
 }
 
 .hero {
@@ -81,27 +93,98 @@ header ul li:hover {
 
 /* Latest post section */
 
+.thirdsection {
+  background: gray;
+}
+
 .latest {
+  height: 90%;
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
+  margin-left: 2rem;
 }
 .articles {
   display: flex;
   flex-direction: column;
-
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 50%;
+  gap: 2rem;
 }
-
+.img {
+  max-width: 300px;
+}
 .article {
   border-radius: 10px;
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   justify-items: left;
+  box-shadow: -5px 5px 10px 5px rgb(51, 20, 56);
+  padding: 1rem;
 }
 
 .content {
   gap: 1rem;
 }
+
+.links {
+  margin-top: 2rem;
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.country {
+  background: rgb(119, 152, 162);
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.date {
+  background: rgb(47, 63, 22);
+  padding: 1rem;
+}
+.country ul li {
+  text-decoration: none;
+  gap: 1rem;
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+.date ul li {
+  text-decoration: none;
+  gap: 1rem;
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Recommendation Section */
+
+.recom {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.mainreco {
+  display: flex;
+  gap: 2rem;
+  width: 90%;
+  margin-left: 1rem;
+}
+
+.recontent {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -5px 5px 10px 5px rgb(51, 20, 56);
+  padding: 0.5rem;
+  width: auto;
+
+  background: burlywood;
+}
+
 footer {
-  background: black;
+  background: grey;
 }
