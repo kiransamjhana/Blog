@@ -185,6 +185,13 @@ header ul li:hover {
   background: burlywood;
 }
 
+/* form */
+
+.fom {
+  display: flex;
+  background: burlywood;
+  padding: 1rem;
+}
 footer {
   background: grey;
 }
