@@ -188,10 +188,22 @@ header ul li:hover {
 /* form */
 
 .fom {
-  display: flex;
   background: burlywood;
-  padding: 1rem;
   margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+
+  justify-content: center;
+  box-sizing: 3rem;
 }
 footer {
   background: grey;
